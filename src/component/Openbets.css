@@ -1,0 +1,67 @@
+.openbets {
+  color: #ac3139;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-align: center;
+}
+.button-rows-open {
+  display: flex;
+  justify-content: space-between; /* To evenly distribute buttons */
+  margin-top: 50px;
+}
+/* Style for the dropdown container */
+/* Style for the dropdown container */
+.dropdown-container-openbets {
+  position: relative;
+  margin-bottom: 20px;
+}
+#bets-buttons {
+  display: flex;
+  justify-content: space-evenly; /* To evenly distribute buttons */
+  margin-top: 50px;
+  margin-left: 11pc;
+  margin-bottom: 10px;
+}
+.page-button {
+  background-color: #ffe1e3;
+  border-radius: 10px;
+  padding: 10px;
+  width: auto;
+  gap: 5px;
+  font-size: large;
+  font-family: poppins;
+}
+/* Style for the floating label */
+.dropdown-heading-openbets.floating {
+  position: absolute;
+  pointer-events: none;
+  top: -12px; /* Adjust as needed to position the label */
+  left: 10px; /* Adjust as needed to position the label */
+  background-color: white;
+  padding: 0 5px;
+  transition: top 0.3s, left 0.3s, font-size 0.3s;
+  font-size: 12px; /* Adjust the font size as needed */
+  color: #888; /* Label color when floating */
+}
+
+/* Style for the select dropdown */
+.dropdown-openbets {
+  width: 200px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fcc9d2; /* Label color when focused */
+}
+
+/* Style for the floating label when the dropdown is focused */
+.dropdown-container-openbets.floating-label
+  .dropdown-heading-openbets.floating {
+  top: -12px; /* Adjust as needed to position the label */
+  left: 10px; /* Adjust as needed to position the label */
+  font-size: 12px; /* Adjust the font size as needed */
+}

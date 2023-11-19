@@ -1,0 +1,42 @@
+.t-container {
+  width: 97%;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.T-head {
+  font-weight: 400;
+  font-family: poppins;
+  margin: 20px;
+}
+
+.main-text-terms {
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  font-family: poppins;
+}
+
+@media (max-width: 768px) {
+  .t-container {
+    width: 90%;
+    margin: 1pc auto;
+    /* 1pc (pica, a unit of length in CSS). */
+  }
+
+  .main-text-terms {
+    font-size: small;
+  }
+}
+
+@media (max-width: 900px) {
+  .t-container {
+    margin-top: 1pc;
+  }
+}

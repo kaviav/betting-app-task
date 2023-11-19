@@ -1,0 +1,56 @@
+#h33 {
+  color: white;
+  font-size: 47px;
+  font-family: Poppins;
+  font-weight: bold;
+  margin-top: 3pc;
+}
+#img-fleid {
+  max-width: 50% !important;
+  height: auto !important;
+}
+
+/* CSS for the flex container */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+/* CSS for each name-price element */
+.name-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px; /* Adjust the margin as needed for spacing */
+}
+
+/* Additional styling for names and prices if needed */
+.names p {
+  margin: 0;
+  font-size: 18px;
+  color: white;
+}
+
+.names span {
+  font-size: 16px;
+  color: beige; /* Adjust the color as needed */
+}
+@media only screen and (max-width: 768px) {
+  #h33 {
+    font-size: 32px;
+  }
+
+  #img-fleid {
+    max-width: 100% !important;
+  }
+
+  .name-price {
+    margin-right: 0;
+  }
+
+  .flex-container {
+    justify-content: center;
+  }
+}

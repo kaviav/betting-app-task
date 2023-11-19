@@ -1,0 +1,5 @@
+.sportscontainer {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,114 @@
+/* SideNavbar.css */
+.side-navbar {
+  flex: 1;
+  margin: 0;
+  height: calc(100vh - 60px);
+  background-color: rgb(253, 244, 251);
+  position: sticky;
+  top: 60px;
+  margin-top: 1.5pc;
+  border-radius: 15px;
+  left: 0;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  overflow-y: auto;
+}
+
+.side-navbar .menu .row:hover {
+  color: white;
+  background-color: blueviolet;
+  border-radius: 10px;
+  transition: all;
+}
+.side-navbar .menu .li:hover {
+  color: white;
+  background-color: blueviolet;
+}
+.menu {
+  list-style-type: none;
+  padding: 10px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menu li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.submenu {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 20px;
+  display: none;
+  color: #2c2a2a;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.submenu li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+
+/* Make submenus and sub-submenus scrollable when needed */
+.submenu,
+.sub-submenu {
+  max-height: 200px; /* Set a max height for the submenu */
+  overflow-y: auto; /* Add vertical scrolling when the content overflows */
+}
+
+.sub-submenu {
+  margin-left: 20px;
+  display: none;
+}
+
+.sub-submenu li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.submenu li:hover .sub-submenu {
+  display: block;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+/* Add more specificity to your hover style */
+/* Change background color only for top-level menu items when hovered */
+
+@media (max-width: 768px) {
+  .side-navbar {
+    display: none;
+  }
+}

@@ -1,0 +1,69 @@
+/* Add your existing styles here */
+
+.footer-row {
+  max-width: 100%;
+  margin-bottom: 10px; /* Add margin to separate rows */
+}
+
+#footer-main-container {
+  max-width: 100%;
+  background-color: #000000;
+  color: #fff; /* Add text color */
+  padding: 20px; /* Add padding for content within the container */
+  border-radius: 10px;
+}
+.desc {
+  margin-top: 15px;
+}
+#capture {
+  height: 60px;
+
+  max-width: "100%";
+}
+
+#payment {
+  max-width: 100%;
+  height: 100px;
+  width: 100px;
+  max-width: "100%";
+
+  margin-left: 100px;
+}
+#g-pay {
+  max-width: 100%;
+}
+
+.head-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+#more-btn {
+  background-color: #ff0800;
+}
+
+.lastline {
+  text-align: center; /* Center align the last link */
+}
+
+@media (max-width: 768px) {
+  #footer-main-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .footer-row {
+    flex-direction: column;
+    text-align: center;
+  }
+  #more-btn {
+    margin: 0 auto;
+  }
+
+  #payment {
+    margin-left: 0;
+  }
+}

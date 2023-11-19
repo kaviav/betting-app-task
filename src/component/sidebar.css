@@ -1,0 +1,46 @@
+body {
+  background-color: #fbfbfb;
+}
+
+/* @media (min-width: 991.98px) {
+  main {
+    padding-left: 240px;
+  }
+} */
+
+/* Sidebar */
+.sidebar {
+  margin: -40pc 10pc 0px -85px;
+  position: sticky;
+  top: 7;
+  bottom: 0;
+  left: 0;
+  padding: 60px 0 0; /* Height of navbar */
+  width: 320px;
+  z-index: 600;
+  border-radius: 10px;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+
+.sidebar .active {
+  border-radius: 5px;
+  border-color: rgb(161, 145, 175);
+  background-color: rgb(161, 145, 175);
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: auto;
+  padding-top: 0.5rem;
+  /* Scrollable contents if viewport is shorter than content. */
+  overflow-y: auto; /* Add this line for scrollability */
+}
+.sidebar a span {
+  font-weight: bold;
+}

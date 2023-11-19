@@ -1,0 +1,178 @@
+/* Custom Navbar */
+
+.navbarall-container {
+  max-width: 100%; /* Set the width to 100% to span the entire viewport */
+  /* max-height: 70%; */
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cf0a0a;
+  color: white;
+  position: relative;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+}
+.brand-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.brand {
+  font-size: 1.5rem; /* Set your desired font size */
+}
+
+.nav-links-container,
+.auth-links-container {
+  display: flex;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white; /* Set your desired link color */
+  margin-right: 20px; /* Adjust the spacing between links */
+  margin-left: 50px;
+  font-size: larger;
+}
+.nav-link:hover {
+  margin-left: 50px;
+  font-size: larger;
+  text-decoration: none;
+  color: white;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+
+  /* position: absolute; Position icons container absolutely */
+  /* bottom: 0; Align icons container to the bottom */
+  /* left: 50%; Center icons container horizontally */
+  /* transform: translateX(-50%); Center icons container horizontally */
+}
+.icon-button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 0;
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.avatar-icon {
+  cursor: pointer;
+  border: none;
+  margin-right: 20px;
+  color: white;
+}
+
+#dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: whitesmoke;
+  min-width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 0;
+  top: 100%;
+}
+
+.dropdown-link {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.avatar-container:hover #dropdown-menu {
+  display: block;
+}
+
+.show {
+  display: block !important;
+}
+
+@media (max-width: 768px) {
+  .navbarall-container {
+    max-width: 100%;
+  }
+  .brand {
+    font-size: medium;
+  }
+  .brand-container {
+    order: -1; /* Move the brand to the top in the column layout */
+    text-align: center; /* Center the text in the column layout */
+  }
+
+  .nav-links-container {
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #cf0a0a;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  .nav-link {
+    margin: 0; /* Remove the right margin for links in the bottom nav */
+  }
+  .navbar-nav {
+    font-size: xx-small;
+    margin-right: 10px;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 540px) and (max-width: 991px) {
+  .navbarall-container {
+    width: 100%;
+  }
+  .brand {
+    font-size: larger;
+  }
+  .brand-container {
+    order: -1; /* Move the brand to the top in the column layout */
+    text-align: center; /* Center the text in the column layout */
+  }
+
+  .nav-links-container {
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #cf0a0a;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  .nav-link {
+    margin: 0; /* Remove the right margin for links in the bottom nav */
+  }
+  .navbar-nav {
+    order: 1; /* Move the auth links to the bottom in the column layout */
+    font-size: small;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}

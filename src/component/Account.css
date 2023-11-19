@@ -1,0 +1,107 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+.account {
+  text-align: center;
+  color: rgb(201, 81, 101);
+  text-decoration: underline rgb(201, 81, 101);
+  margin-top: 50px;
+}
+/* Assuming the CSS for your Page2 component is in page2.css */
+/* Styling for the search bar */
+
+.search-input {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: white;
+  float: right;
+  border-radius: 10px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between; /* To evenly distribute buttons */
+  margin-top: 50px;
+}
+
+/* Add these styles to your CSS file */
+#page-button {
+  background-color: pink;
+  color: black;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between; /* Align content horizontally */
+  align-items: center; /* Vertically center content */
+}
+
+.no-data {
+  text-align: center;
+
+  margin-top: 10px;
+}
+.horizontal-line {
+  border: none;
+  border-top: 1px solid#ccc;
+  margin-top: 10px;
+}
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.search-icon {
+  color: rgb(201, 81, 101);
+  /* Change 'red' to your desired color */
+}
+.custom-dropdown {
+  color: rgb(201, 81, 101);
+  font-size: 24px;
+}
+.fas.fa-sort-up,
+.fas.fa-sort-down {
+  color: rgb(201, 81, 101);
+  font-size: 20px; /* Change 'blue' to your desired color */
+}
+
+#show {
+  display: block !important ;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+#entriesDropdown {
+  margin-left: 10px;
+  padding-left: 2px;
+}
+
+#search-bar {
+  border: 1px solid transparent;
+  margin-top: -20px;
+  text-align: right;
+}
+
+.entries-info {
+  font-size: 20px;
+}
+
+.page-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.prev-button,
+.next-button {
+  color: black;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 10px; /* Adjust as needed */
+}

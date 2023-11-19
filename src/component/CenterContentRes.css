@@ -1,0 +1,44 @@
+.response {
+  width: 97%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+  line-height: normal;
+  letter-spacing: normal;
+  font-family: poppins;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.response h1 {
+  text-align: center;
+  margin: 20px;
+  text-transform: capitalize;
+}
+.response p {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-wrap: wrap;
+  line-height: normal;
+}
+
+@media (max-width: 768px) {
+  .response {
+    width: 96%;
+    margin-left: auto;
+
+    margin-right: auto; /* Center the element on smaller screens */
+  }
+}
+@media (max-width: 900px) {
+  .response {
+    margin-top: 1pc;
+  }
+}

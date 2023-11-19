@@ -1,0 +1,119 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;1,400;1,700&display=swap"); */
+
+.navbar-container {
+  font-family: poppins;
+  max-width: 100%; /* Set the width to 100% to span the entire viewport */
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px; */
+  background-color: #cf0a0a;
+  color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+}
+
+.brand-container {
+  display: flex;
+
+  align-items: center;
+}
+
+.logo {
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.brand {
+  font-size: 1.5rem; /* Set your desired font size */
+}
+
+.nav-links-container,
+.auth-links-container {
+  display: flex;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white; /* Set your desired link color */
+  margin-right: 20px; /* Adjust the spacing between links */
+}
+
+@media (max-width: 768px) {
+  .navbar-container {
+    width: 100%;
+  }
+  .brand {
+    font-size: larger;
+  }
+  .brand-container {
+    order: -1; /* Move the brand to the top in the column layout */
+    text-align: center; /* Center the text in the column layout */
+  }
+
+  .nav-links-container {
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #cf0a0a;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+  .nav-link {
+    margin: 0; /* Remove the right margin for links in the bottom nav */
+  }
+  .auth-links-container {
+    order: 1; /* Move the auth links to the bottom in the column layout */
+    font-size: small;
+    margin-right: 40px;
+    gap: 15px;
+  }
+}
+@media (min-width: 540px) and (max-width: 991px) {
+  .navbar-container {
+    width: 100%;
+  }
+  .logo {
+    width: 70px;
+    height: 70px;
+  }
+  .brand {
+    font-size: larger;
+  }
+  .brand-container {
+    order: -1; /* Move the brand to the top in the column layout */
+    text-align: center; /* Center the text in the column layout */
+  }
+
+  .nav-links-container {
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #cf0a0a;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  .nav-link {
+    margin: 0; /* Remove the right margin for links in the bottom nav */
+  }
+  .auth-links-container {
+    order: 1; /* Move the auth links to the bottom in the column layout */
+    font-size: small;
+    margin-right: 40px;
+    gap: 15px;
+  }
+}

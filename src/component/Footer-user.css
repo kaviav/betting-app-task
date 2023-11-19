@@ -1,0 +1,13 @@
+#footer-user {
+  width: 75%;
+  margin-left: 20pc;
+}
+
+@media only screen and (max-width: 768px) {
+  #footer-user {
+    width: 99%; /* Adjust the width as needed for smaller screens */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+  }
+}

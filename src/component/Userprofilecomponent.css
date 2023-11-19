@@ -1,0 +1,83 @@
+#title {
+  color: #ac3139;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+#userdetails {
+  border-radius: 15px;
+  background: #f3f3f3;
+}
+#usercount {
+  border-radius: 15px;
+  background: #f3f3f3;
+  margin-left: 2pc;
+}
+#username {
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#uservalues {
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 2pc;
+}
+#countings {
+  border-radius: 15px;
+  background: #fff;
+  flex-shrink: 0;
+  margin: 26px;
+  width: 27vh;
+}
+#todayprofit,
+#todayprofitsports,
+#todayprofitcasino,
+#todaydeposit,
+#bonussub {
+  color: #b64d52;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 11px;
+}
+#bonusvalue {
+  color: #929292;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#tdyprofitvalue,
+#tdyprofitvaluecasino,
+#tdyprofitvaluesports,
+#tdydepositvalue {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+#bonus {
+  border-radius: 15px;
+  background: #f3f3f3;
+}
+#deposit {
+  border-radius: 15px;
+  background: #f3f3f3;
+  margin-left: 2pc;
+}

@@ -1,0 +1,91 @@
+.transaction {
+  text-align: center;
+  color: rgb(201, 81, 101);
+  text-decoration: underline rgb(201, 81, 101);
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.date-picker {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#entry-control-trans {
+  display: flex;
+  align-items: center;
+  float: center;
+}
+
+.file-download {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4pc;
+  margin-left: 1pc;
+  gap: 10px; /* Adjust spacing between buttons */
+}
+
+/* CSS styles for the button-like download links */
+.download-button {
+  padding: 5px 10px; /* Adjust the padding to make the buttons smaller */
+  background-color: #fff; /* Button background color */
+  color: black; /* Button text color */
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 10px; /* Adjust the border radius to control button roundness */
+  font-size: 12px; /* Adjust the font size to make the text smaller */
+  position: relative;
+  bottom: 90px; /* Move the button up */
+  left: 130px; /* Move the button to the right */
+}
+
+/* Add these styles to your page4.css file or your preferred CSS file */
+
+/* Add these styles to your page4.css file or your preferred CSS file */
+.react-datepicker__input-container {
+  margin-top: 20px;
+  width: 200px;
+  margin-bottom: 20px; /* Adjust the width to make it bigger */
+}
+
+/* Adjust the input field style within the date picker if needed */
+.react-datepicker__input-container input {
+  width: 100%;
+  padding: 28px; /* Adjust the padding as needed */
+  border-radius: 10px;
+  border: 2px solid rgb(201, 81, 101);
+  background-color: #fcc9d2;
+}
+
+/* Style for the search bar */
+
+/* Style for the search icon */
+.search-icon {
+  margin-right: 10px; /* Space between the icon and input */
+  color: #ff8080; /* Icon color */
+}
+
+/* Style for the search input */
+.search-input {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: white;
+  float: right;
+  margin-bottom: 30px;
+}
+.search-bar1 {
+  text-align: right;
+  float: right;
+  margin-right: 13pc;
+  margin-top: 2pc;
+}
+.search-input1 {
+  background-color: #fcc9d2;
+  border-radius: 5px;
+  border: none;
+  padding: 6px;
+  font-size: 14px;
+}

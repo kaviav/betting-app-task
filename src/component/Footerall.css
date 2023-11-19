@@ -1,0 +1,106 @@
+/* Default styles for all screen sizes (including desktop and mobile) */
+#footer-all {
+  width: 97%;
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Default styles for all screen sizes (including desktop and mobile) */
+.footer {
+  background-color: white;
+  color: #333;
+  margin: 0 auto; /* Center the footer */
+}
+
+#fr-logo {
+  margin-left: 5%;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; /* Adjust the gap size as needed */
+}
+
+.logo-name-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-text1,
+.header-text2 {
+  text-align: center;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.64px;
+  margin-right: -10px;
+}
+
+.copyright-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-payment-contact {
+  display: flex;
+  flex-direction: row;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.content-section,
+.payment-section,
+.contact-section {
+  width: 100%;
+  padding: 1pc;
+}
+
+@media (max-width: 768px) {
+  #footer-all {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .logo-name-container {
+    margin-bottom: 10px;
+  }
+
+  .content-payment-contact {
+    flex-direction: column; /* Set to column for smaller screens */
+    align-items: center; /* Optional: Center the content in the column */
+  }
+
+  .content-section,
+  .payment-section,
+  .contact-section {
+    width: 100%;
+  }
+  .payment-pic {
+    width: 300px;
+  }
+  .header-text2 {
+    display: none;
+  }
+  .logo-name-container {
+    margin-right: 30px;
+  }
+}

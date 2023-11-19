@@ -1,0 +1,65 @@
+#titlewithdraw{
+    color: #AC3139;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+#dropdown{
+    width: 393px;
+height: 81px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #A7110C;
+background: #FFEFF0;
+}
+#inputidbox{
+    width: 393px;
+height: 81px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #A7110C;
+background: #FFEFF0;
+}
+#options{
+    color: #000;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#labelproof{
+    color: #31373D;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+#statuslabel{
+    color: #000;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#statusform{
+    color: #AC3139;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#submitbtn{
+    width: 27vh;
+    font-size: 4vh;
+    background-color: #A7110C !important;
+    font-weight: bolder;
+    margin-left: 35pc;
+}

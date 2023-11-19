@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;1,400;1,700&display=swap");
+
+#reviewtitle {
+  color: white;
+  font-size: 48px;
+  font-family: poppins;
+  font-weight: bold;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  #reviewtitle {
+    font-size: 36px;
+  }
+}
